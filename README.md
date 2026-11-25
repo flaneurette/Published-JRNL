@@ -2,10 +2,14 @@
 
 A simple journal parser with a `.jrnl` extension.
 
+### Use
+
+https://www.example.org/journal/retrieve.php?entry=test
+
 ### The markup is simple
 
 Only these tags are parsed: P,U,B,L,I,S,H,E,D,A
-
+```
 P = Paragraph
 U = Ul
 B = Strong
@@ -16,7 +20,7 @@ H = Headings from 1 to 6
 E = Emphasized
 D = Date time
 A = Hyperlink
-
+```
 ### Example
 
 ```
