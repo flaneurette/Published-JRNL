@@ -39,3 +39,5 @@ A = Hyperlink
 #l hello
 #l second item
 ```
+
+`#jrnl` on the first line is required.
