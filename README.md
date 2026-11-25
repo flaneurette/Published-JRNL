@@ -24,15 +24,17 @@ A = Hyperlink
 ### Example
 
 ```
-#jrnl v1 - 2026/11/25
+#jrnl v1 2026-11-25
 
 #h1 Welcome to the journal!
 
-#d 2026/11/25
+#d 2026-11-25
 
 #p This is Published JRNL v1.0
 
-#a https://www.github.com
+#a https://www.github.com | GitHub
+
+#i photo.jpg | A sunset over the sea
 
 #l hello
 #l second item
