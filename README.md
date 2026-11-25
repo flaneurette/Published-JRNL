@@ -1,4 +1,4 @@
-# Pusblished-JRNL
+# Published-JRNL
 
 A simple journal parser with a `.jrnl` extension.
 
