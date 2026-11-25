@@ -4,7 +4,7 @@ A simple journal parser with a `.jrnl` extension.
 
 ### Use
 
-https://www.example.org/journal/retrieve.php?entry=test
+https://www.example.org/journal/test/
 
 ### The markup is simple
 
