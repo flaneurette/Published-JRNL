@@ -1,0 +1,10 @@
+Options -Indexes -MultiViews +FollowSymLinks
+
+RewriteEngine On
+
+# Rewrite URIs to HTTPS
+RewriteCond %{HTTPS} !on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Journal: /journal/test/ or /journal/test -> retrieve.php?entry=test
+RewriteRule ^journal/([a-zA-Z0-9-]+)/?$ /journal/retrieve.php?entry=$1 [L]
